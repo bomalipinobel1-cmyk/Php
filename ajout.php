@@ -29,7 +29,7 @@
         $data[] = $colis;
         file_put_contents($fichier, json_encode($data, JSON_PRETTY_PRINT));
 
-        echo "<p class='success'>✅ Colis ajouté avec succès !</p>";
+        echo "<p class='success'> Colis ajouté avec succès !</p>";
     }
     ?>
 
